@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-option java_package = "com.example.demo";
+option java_package = "com.example.demo.*";
 
-option java_multiple_files = false;
+option java_multiple_files = true;
 option java_outer_classname = "testProto";
 
 package proto;
@@ -10,7 +10,7 @@ package proto;
 // The greeter service definition.
 service Greeter {
   // Sends a greeting
-  rpc SayHello ( HelloRequest) returns (  HelloReply) {}
+  rpc SayHello ( HelloRequest) returns ( HelloReply) {}
 
 }
 // The request message containing the user's name.

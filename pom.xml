@@ -81,6 +81,50 @@
             <optional>true</optional>
         </dependency>
         <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-all</artifactId>
+            <scope>system</scope>
+            <systemPath>E:/springboot-grpc/jarPackage/grpc-all-1.31.1.jar</systemPath>
+            <version>1.31.1</version>
+        </dependency>
+        <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-stub</artifactId>
+        <scope>system</scope>
+        <systemPath>E:/springboot-grpc/jarPackage/grpc-stub-1.31.1.jar</systemPath>
+        <version>1.31.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-starter</artifactId>
+            <scope>system</scope>
+            <systemPath>E:/springboot-grpc/jarPackage/grpc-spring-boot-starter-3.3.0.jar</systemPath>
+            <version>1.31.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.grpc</groupId>
+            <artifactId>grpc-core</artifactId>
+            <scope>system</scope>
+            <systemPath>E:/springboot-grpc/jarPackage/grpc-core-1.31.1.jar</systemPath>
+            <version>1.31.1</version>
+        </dependency>
+        <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-protobuf</artifactId>
+        <scope>system</scope>
+        <systemPath>E:/springboot-grpc/jarPackage/grpc-protobuf-1.31.1.jar</systemPath>
+        <version>1.31.1</version>
+         </dependency>
+
+    <dependency>
+        <groupId>io.grpc</groupId>
+        <artifactId>grpc-api</artifactId>
+        <scope>system</scope>
+        <systemPath>E:/springboot-grpc/jarPackage/grpc-api-1.31.1.jar</systemPath>
+        <version>1.31.1</version>
+    </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
@@ -104,6 +148,12 @@
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <version>2.3.0.RELEASE</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
